@@ -31,3 +31,14 @@ This project is an online store service implemented using Spring Boot. The servi
 
    The KPIs are available through Spring Boot Actuator.
 
+## Access Swagger UI
+
+Once the service is running, you can access the Swagger UI at:
+- [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+
+## Retrieve Service KPIs
+
+Spring Boot Actuator provides built-in metrics endpoints that you can use to retrieve KPIs:
+- [http://localhost:8080/actuator/metrics/http.requests](http://localhost:8080/actuator/metrics/http.requests)
+
+
